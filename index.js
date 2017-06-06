@@ -40,6 +40,7 @@ if (!argv.included) {
     server.use('/users/:id/groups', (req, res, next) => {
         const user = router.db.get('users')
             .getById(req.params.id)
+            .cloneDeep()
             .value();
 
         if (util.isUndefined(user)) {
@@ -53,6 +54,7 @@ if (!argv.included) {
     server.use('/groups/:id/users', (req, res, next) => {
         const group = router.db.get('groups')
             .getById(req.params.id)
+            .cloneDeep()
             .value();
 
         if (util.isUndefined(group)) {
