@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Emmett Okuneva"
+        },
+        {
+            "id": 1,
+            "name": "Maryse Goodwin"
+        },
+        {
+            "id": 2,
+            "name": "Naomi Koch"
+        }
+    ],
+    "groups": [
+        {
+            "id": 0,
+            "name": "admin"
+        },
+        {
+            "id": 1,
+            "name": "user"
+        }
+    ],
+    "users_groups": [
+        { "id": 0, "userId": 0, "groupId": 0 },
+        { "id": 1, "userId": 1, "groupId": 1 },
+        { "id": 2, "userId": 2, "groupId": 0 },
+        { "id": 3, "userId": 2, "groupId": 1 }
+    ]
+}

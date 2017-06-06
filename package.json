@@ -1,0 +1,18 @@
+{
+  "name": "reddit-json-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.10.1",
+    "minimist": "^1.2.0",
+    "pluralize": "^5.0.0"
+  },
+  "scripts": {
+    "nested": "node index.js",
+    "included": "node index.js --included"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
